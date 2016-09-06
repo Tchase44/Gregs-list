@@ -1,0 +1,79 @@
+
+.header {
+	background-color: lightgrey;
+	width: 100%;
+	position: fixed;
+	height: 40px;
+}
+#greg {
+	padding-left: 20px;
+	margin-top: 5px;
+	display: inline-block;
+}
+ul {
+	float: right;
+	margin-right: 20PX;
+}
+li {
+	display: inline-block;
+	margin-top: -20px;
+	padding-right: 10px;
+	font-size: 20px;
+}
+li a{
+	text-decoration: none;
+	font-family: arial;
+	font-weight: bold;
+}
+.results {
+	
+    display: block;
+    padding-top: 100px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+ #field {
+ 	width: 350px;
+ 	/*height: 18px;*/
+ }
+ .list i {
+ 	display: inline;
+ 	/*float: right;*/
+ 	border: 1px solid black;
+ 	/*height: 45px;*/
+ 	font-size: 17px;
+ }
+ .control{
+ 	margin-right: auto;
+ 	margin-left: auto;
+ 	margin-top: 25px;
+ 	width: 50%;
+ }
+ .control table {
+ 	border: 1px solid black;
+ }
+ .control td {
+ 	border: 1px solid lightgrey;
+ 	padding: 0 5px 0 5px;
+ }
+ .postings{
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	width: 50%;
+ 	padding-top: 40px;
+ }
+ .postings p{
+ 	color: grey;
+
+ }
+ .postings i{
+ 	color: grey;
+ }
+ .postings i:hover{
+ 	color: gold;
+ }
+ .postings a{
+ 	color: blue;
+ 	font-size: 15px;
+ }

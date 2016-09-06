@@ -9,6 +9,7 @@
 	padding-left: 20px;
 	margin-top: 5px;
 	display: inline-block;
+	font-family: arial;
 }
 ul {
 	float: right;
@@ -40,7 +41,8 @@ li a{
  .list i {
  	display: inline;
  	/*float: right;*/
- 	border: 1px solid black;
+ 	border: 1px solid lightgrey;
+ 	padding: 2px;
  	/*height: 45px;*/
  	font-size: 17px;
  }
@@ -51,11 +53,33 @@ li a{
  	width: 50%;
  }
  .control table {
- 	border: 1px solid black;
+ 	/*border: 1px solid black;*/
+ 	font-family: arial;
+ 	font-size: 14px;
+ 	/*height: 10px;*/
+
  }
  .control td {
+ 	/*border: 1px solid lightgrey;*/
+ 	/*padding: 0 5px 0 5px;*/
+ 	border-right: 1px solid lightgrey;
+ }
+ #one{
  	border: 1px solid lightgrey;
- 	padding: 0 5px 0 5px;
+ 	padding-right: 15px;
+ 	padding-left: 15px;
+ }
+ #two{
+ 	border-top:1px solid lightgrey;
+ 	border-bottom: 1px solid lightgrey;
+ 	padding-left:10px;
+ 	padding-right:10px;
+ }
+ #three{
+ 	border-top:1px solid lightgrey;
+ 	border-bottom: 1px solid lightgrey;
+ 	padding-left:15px;
+ 	padding-right:15px;
  }
  .postings{
  	margin-left: auto;
@@ -65,7 +89,7 @@ li a{
  }
  .postings p{
  	color: grey;
-
+ 	/*padding: 3px;*/
  }
  .postings i{
  	color: grey;
@@ -74,6 +98,9 @@ li a{
  	color: gold;
  }
  .postings a{
+ 	text-decoration: none;
  	color: blue;
- 	font-size: 15px;
+ 	font-family: arial;
+ 	font-weight: bolder;
+ 	font-size: 18px;
  }
